@@ -14,15 +14,16 @@ html {
     position: fixed;
 }
 
-li {
-    text-align: left;
-}
-
-.imagesDiv {
-    float: right;
-}
-
 img {
     height: 200px;
     width: 100%;
+}
+
+.btn {
+    background-color: orangered;
+}
+
+.navBtn {
+    background-color: orangered;
+    margin: 5px;
 }
