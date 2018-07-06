@@ -12,18 +12,22 @@ html {
     height: 100vh;
     text-align: center;
     position: fixed;
+    font-family: 'Playfair Display', serif;
 }
 
+.name {
+    font-size: 30px;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.hover:hover {
+    color: orangered
+}
 img {
     height: 200px;
     width: 100%;
 }
 
-.btn {
-    background-color: orangered;
-}
-
-.navBtn {
-    background-color: orangered;
-    margin: 5px;
-}
