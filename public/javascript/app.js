@@ -1,4 +1,14 @@
 // Initialize Materialize Components
 $(document).ready(function () {
-  $('.dropdown-trigger').dropdown();
+	$('.imagesDiv').show();
+	$('.about').hide();
+
+	$('.aboutNav').on('click', function() {
+		$('.imagesDiv').hide();
+		$('.about').show();
+	})
+
+
+
+
 });
