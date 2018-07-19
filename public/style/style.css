@@ -31,3 +31,22 @@ img {
     width: 100%;
 }
 
+.profilePic {
+    height: 300px;
+    width: 100%;
+    margin: 10px 10px 0 0;
+    background-color: black;
+}
+
+.about {
+    background-image: url('../images/bmore.jpg');
+    height: 100vh;
+    width: 100%;
+}
+
+.bio {
+    background-color: white;
+    opacity: .9;
+    
+}
+
