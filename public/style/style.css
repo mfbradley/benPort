@@ -32,7 +32,7 @@ html {
 }
 
 img {
-    height: 200px;
+    height: 275px;
     width: 100%;
 }
 
@@ -44,7 +44,7 @@ img {
 }
 
 .about {
-    background-image: url('../images/bmore.jpg');
+    background-image: url('../images/jpegs/bmore.jpg');
     height: 100vh;
     width: 100%;
 }
@@ -53,5 +53,9 @@ img {
     background-color: white;
     opacity: .9;
     
+}
+
+.contact {
+    margin: 0 auto;
 }
 
