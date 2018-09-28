@@ -32,6 +32,8 @@ $(document).ready(function () {
 	// showImages();
 	// -----------------------------------------------------------
 
+	$('.materialboxed').materialbox();
+	
 	$(".imagesDiv").show();
 	$(".laydownsDiv").hide();
 	$(".tableTopDiv").hide();
