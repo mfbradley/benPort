@@ -9,7 +9,8 @@ app.get('/', function(req, res) {
 app.get('/editorial', function(req, res) {
     res.sendFile(path.join(__dirname, '../public/editorial.html'))
 })
-// app.get('/laydowns', function(req, res) {
-//     res.sendFile(path.join(__dirname, './index.html'))
-// })
+
+app.get('/laydowns', function(req, res) {
+    res.sendFile(path.join(__dirname, '../public/laydowns.html'))
+})
 }

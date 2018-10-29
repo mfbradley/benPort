@@ -33,35 +33,6 @@ $(document).ready(function () {
 	// -----------------------------------------------------------
 
 	$('.materialboxed').materialbox();
-	
-	$(".imagesDiv").show();
-	$(".laydownsDiv").hide();
-	$(".tableTopDiv").hide();
-	$(".editorialDiv").hide();
-	$(".gifDiv").hide();
-	$(".about").hide();
-	$(".contact").hide();
-
-	$(".laydownsNav").on("click", function () {
-
-		$(".laydownsDiv").show();
-		$(".imagesDiv").hide();
-		$(".tableTopDiv").hide();
-		$(".editorialDiv").hide();
-		$(".gifDiv").hide();
-		$(".contact").hide();
-		$(".about").hide();
-	})
-
-	// $(".editorialNav").on("click", function () {
-	// 	$(".imagesDiv").hide();
-	// 	$(".laydownsDiv").hide();
-	// 	$(".editorialDiv").show();
-	// 	$(".tableTopDiv").hide();
-	// 	$(".gifDiv").hide();
-	// 	$(".contact").hide();
-	// 	$(".about").hide();
-	// })
 
 	$(".tableTopNav").on("click", function () {
 		$(".imagesDiv").hide();
