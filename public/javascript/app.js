@@ -53,15 +53,15 @@ $(document).ready(function () {
 		$(".about").hide();
 	})
 
-	$(".editorialNav").on("click", function () {
-		$(".imagesDiv").hide();
-		$(".laydownsDiv").hide();
-		$(".editorialDiv").show();
-		$(".tableTopDiv").hide();
-		$(".gifDiv").hide();
-		$(".contact").hide();
-		$(".about").hide();
-	})
+	// $(".editorialNav").on("click", function () {
+	// 	$(".imagesDiv").hide();
+	// 	$(".laydownsDiv").hide();
+	// 	$(".editorialDiv").show();
+	// 	$(".tableTopDiv").hide();
+	// 	$(".gifDiv").hide();
+	// 	$(".contact").hide();
+	// 	$(".about").hide();
+	// })
 
 	$(".tableTopNav").on("click", function () {
 		$(".imagesDiv").hide();
